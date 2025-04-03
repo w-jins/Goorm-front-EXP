@@ -45,15 +45,28 @@ body {
     align-items: center;
     justify-content: space-between;
     /* flex: 1; */
+    max-width: 400px;
     width: 400px;
+    margin-bottom: 5px;
 }
-
-.list-item::after {
-    content: "";
+.content {
+    width: 70%;
+    margin: 10px;
+    border: none;
+    background-color: white;
+    color: black;
 }
 
 .change-button {
     border: none;
     border-radius: 8px;
-    float: right;
+    background-color: white;
+    text-align: center;
+}
+
+.delete-button {
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
 }
